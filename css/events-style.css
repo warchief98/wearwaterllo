@@ -1,166 +1,180 @@
-.body *{
-    font-family: scherif,sans-serif;
+.body * {
+  font-family: scherif, sans-serif;
 }
-.events-container{
-    width: 100%;
-    padding-top: 145px;
+.events-container {
+  width: 100%;
+  padding-top: 145px;
+  padding-bottom: 80px;
+  overflow-x: hidden;
 }
 
-
-.side-events{
-    
+.side-events {
 }
-.side-events-top{
-    
+.side-events-top {
 }
-.side-events-top img{
-    width: 100%;
+.side-events-top img {
+  width: 100%;
 }
-.side-events-bot *{
-    font-family: tahoma,arial,sans-serif;
-    font-size: 14px;
-    color: black;
+.side-events-bot * {
+  font-family: tahoma, arial, sans-serif;
+  font-size: 14px;
+  color: black;
 }
 .side-events-bot p,
-.cal-intro{
-    color: #666666;
+.cal-intro {
+  color: #666666;
 }
 /****************/
-.shows{
-    background-color: #e40613;
-    padding: 20px 0;
-    margin-top: 50px;
+.shows {
+  background-color: #e40613;
+  padding: 20px 0;
+  margin-top: 50px;
 }
-.shows h2{
-    color: white;
-    font-size: 32px;
-    margin-bottom: 15px;
-    padding: 0 20px 5px;
+.shows h2 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 15px;
+  padding: 0 20px 5px;
 }
-.shows h5{
-    margin-bottom: 3px;
-    font-family: tahoma,arial,sans-serif;
-    font-size: 14px;
-    color: white;
+.shows h5 {
+  margin-bottom: 3px;
+  font-family: tahoma, arial, sans-serif;
+  font-size: 14px;
+  color: white;
 }
-.shows figure{
-    transform: translateX(15px);
-    margin: 0;
-    padding: 0;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    overflow: hidden;
+.shows figure {
+  transform: translateX(15px);
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
 }
-.shows figure > img{
-    height: 100%;
+.shows figure > img {
+  height: 100%;
 }
-.shows a{
-    font-size: 19px;
-    color: white !important;
-    text-decoration: none;
-    font-family: scherif;
+.shows a {
+  font-size: 19px;
+  color: white !important;
+  text-decoration: none;
+  font-family: scherif;
 }
 /***************************/
-.top-event-title{
-    width: 100%;
-    border-bottom: 4px solid #E10512;
-    padding-top: 15px;
-    display: block;
+.top-event-title {
+  width: 100%;
+  border-bottom: 4px solid #e10512;
+  padding-top: 15px;
+  display: block;
 }
-.top-event-title a{
-    font-size: 26px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
+.top-event-title a {
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
 }
-.top-event-title a:hover{
-    color: black;
+.top-event-title a:hover {
+  color: black;
 }
 
-.top-events{
-    font-size: 22px;
-    font-family: scherif,sans-serif;
-    color: #E10512;
+.top-events {
+  font-size: 22px;
+  font-family: scherif, sans-serif;
+  color: #e10512;
 }
-.events-date{
-    text-transform: capitalize;
+.events-date {
+  text-transform: capitalize;
 }
-.events-time{
-    text-transform: uppercase;
+.events-time {
+  text-transform: uppercase;
 }
 /*--------------------------------------------------*/
-.calendar{
-    width: 100%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-flow: column wrap;
-    max-height: 670px;
-}
-.all-one-month{
-    width: 25%;
-}
-.calendar-events{
-    position: relative;
-    padding-left: 50px;
-}
-.month-number{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    background-color: #e10512;
-    color: white;
-    font-family: scherif;
-    font-size: 22px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-}
-.calendar-month{
-    font-size: 22px;
-    text-align: right;
-    color: #e10512;
-    padding-bottom: 30px;
-    text-align: right;
-    text-transform: uppercase;
-}
-.cal-ev-head{
-/*    color by js*/
-    font-size: 18px;
-    text-transform: capitalize;
-    line-height: 120%;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: capitalize;
+.calendar {
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 670px;
 }
 
-.cal-ev-title{
-    color: black;
-    font-size: 14px;
-    font-family: tahoma,arial,sans-serif;
+.calendar-events {
+  position: relative;
+  padding-left: 50px;
 }
-.cal-ev-para{
-    color: #666666;
-    font-size: 14px;
-    font-family: tahoma,arial,sans-serif;
+.month-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #e10512;
+  color: white;
+  font-family: scherif;
+  font-size: 22px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
 }
-.until-time{
-    color: #666666;
-    font-size: 14px;
-    font-family: tahoma,arial,sans-serif;
+.calendar-month {
+  font-size: 22px;
+  text-align: right;
+  color: #e10512;
+  padding-bottom: 30px;
+  text-align: right;
+  text-transform: uppercase;
 }
-.read-more{
-    color: #E10512 !important;
-    outline: none !important;
-    font-size: 14px !important;
-    font-family: tahoma,arial,sans-serif !important; 
-    cursor: pointer;
+.cal-ev-head {
+  /*    color by js*/
+  font-size: 18px;
+  text-transform: capitalize;
+  line-height: 120%;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: capitalize;
 }
-#menu-btn{
-    transform: translate(-96% , 56%);
+
+.cal-ev-title {
+  color: black;
+  font-size: 14px;
+  font-family: tahoma, arial, sans-serif;
+}
+.cal-ev-para {
+  color: #666666;
+  font-size: 14px;
+  font-family: tahoma, arial, sans-serif;
+}
+.until-time {
+  color: #666666;
+  font-size: 14px;
+  font-family: tahoma, arial, sans-serif;
+}
+.read-more {
+  color: #e10512 !important;
+  outline: none !important;
+  font-size: 14px !important;
+  font-family: tahoma, arial, sans-serif !important;
+  cursor: pointer;
+}
+/* #menu-btn {
+  transform: translate(-96%, 56%);
+} */
+
+@media screen and (max-width: 767px) {
+  .all-one-month {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .all-one-month {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .all-one-month {
+    width: 50%;
+  }
 }
